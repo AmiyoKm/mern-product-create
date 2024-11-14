@@ -63,7 +63,8 @@ const ProductCard = ({ product }: { product: Product }) => {
         </CardHeader>
         <CardContent>
           <p className="mb-2 text-bold text-2xl">{product.name}</p>
-          <p>$ {product.price}</p>
+          <p >$ {product.price}</p>
+          <p className="mb-2 text-bold text-2xl">$ {product.price}</p>
         </CardContent>
         <CardFooter>
           
